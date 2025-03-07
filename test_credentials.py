@@ -19,25 +19,15 @@ class TestCred(BaseTest):
             pwd = credentials['pwd']
 
             username = self.driver.find_element(By.XPATH, "//input[@id='user-name']")
-
             password= self.driver.find_element(By.XPATH, "//input[@id='password']")
             login = self.driver.find_element(By.XPATH, "//input[@id='login-button']")
-            time.sleep(3)
             username.send_keys(uname)
-            time.sleep(3)
             password.send_keys(pwd)
-            time.sleep(3)
+            time.sleep(2)
             login.click()
-            time.sleep(3)
             self.driver.back()
 
-        # username = self.driver.find_element(By.XPATH, "//input[@id='user-name']")
-        # uname=self.cred['user_one']['uname']
-        # username.send_keys(uname)
-        # password = self.driver.find_element(By.XPATH, "//input[@id='password']")
-        # password.send_keys("secret_sauce")
-        # login = self.driver.find_element(By.XPATH, "//input[@id='login-button']")
-        # login.click()
+
 
 
 
