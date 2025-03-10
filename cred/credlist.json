@@ -1,0 +1,33 @@
+{
+  "user_one":{
+    "uname":"standard_user",
+    "pwd": "secret_sauce"
+  },
+  "user_two": {
+    "uname": "problem_user",
+    "pwd": "secret_sauce"
+
+  },
+  "user_three": {
+    "uname": "performance_glitch_user",
+    "pwd": "secret_sauce"
+  },
+  "user_four": {
+    "uname": "error_user",
+    "pwd": "secret_sauce"
+
+
+  },
+  "user_five": {
+    "uname": "visual_user",
+    "pwd": "secret_sauce"
+
+
+  },
+  "invalid_user_one": {
+
+  }
+
+
+
+}

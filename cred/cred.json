@@ -1,30 +1,20 @@
 {
-  "user_one":{
-    "uname":"standard_user",
-    "pwd": "secret_sauce"
-  },
-  "user_two": {
-    "uname": "problem_user",
-    "pwd": "secret_sauce"
 
-  },
-  "user_three": {
-    "uname": "performance_glitch_user",
-    "pwd": "secret_sauce"
-  },
-  "user_four": {
-    "uname": "error_user",
-    "pwd": "secret_sauce"
-
-
-  },
-  "user_five": {
-    "uname": "visual_user",
-    "pwd": "secret_sauce"
-
-
-  }
-
-
-
+  "base_url": "https://www.saucedemo.com/",
+  "standard_username": "standard_user",
+  "problem_user": "problem_user",
+  "performance_glitch": "performance_glitch",
+  "error_user": "error_user",
+  "visual_user": "visual_user",
+  "Password": "secret_sauce",
+  "test_new_page": "testst",
+  "users": {"st": "pwd","st2": "pwd2"}
 }
+
+
+
+
+
+
+
+
